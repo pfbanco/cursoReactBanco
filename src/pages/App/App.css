@@ -1,0 +1,19 @@
+.navbar {
+  min-height: 56px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+}
+
+.navbar__menus {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__menu {
+  margin-left: 16px;
+  margin-right: 16px;
+  height: 32px;
+  min-width: 48px;
+}/*# sourceMappingURL=App.css.map */
