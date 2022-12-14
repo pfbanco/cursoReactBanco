@@ -1,14 +1,15 @@
-import Proptypes from 'prop-types'
-import './Layout'
+import Proptypes from 'prop-types';
 
 const Layout = ({children}) => {
-    return(
-        <div className='layout'>{children}</div>
+    return (
+        <div>
+            {children}
+        </div>
     )
 }
 
 Layout.proptype = {
-    children: Proptypes.element.inRequired
+    children: Proptypes.element.isRequired
 }
 
-export default Layout
+export default Layout;

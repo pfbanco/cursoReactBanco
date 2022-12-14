@@ -1,3 +1,5 @@
-@use '../../Components/NavBar/NavBar';
-@use '../../Components/Layout/Layout';
-@use '../../Components/CartWidget/CartWidget';
+@use '../../components/Navbar/Navbar.scss';
+@use '../../components/ItemListContainer/ItemListContainer.scss';
+@use '../../components/Itemcount/ItemCount.scss';
+@use '../../components/Home/Home.scss';
+@use '../../components/ItemDetailContainer/ItemDetailContainer.scss'

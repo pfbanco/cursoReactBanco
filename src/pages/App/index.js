@@ -1,2 +1,2 @@
-import {App} from './Initial'
+import {App} from './App'
 export default App

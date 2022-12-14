@@ -1,10 +1,25 @@
-.cartwidget{
-    border: solid 2px black;
-    border-radius: 16px;
-    background-color: #63cdda;
-    padding: 8px;
-    margin: 8px;
+.boton__carrito {
+    border: none;
+    cursor: pointer;
+    margin: 0 1rem;
+    background-color: rgb(255, 255, 255);
+    span {
+        position: absolute;
+        cursor: pointer;
+        background-color: red;
+        color: white;
+        width: 14px;
+        height: 14px;
+        padding: 1px 0 0 0;
+        font-size: .6rem;
+        font-weight: 700;
+        border-radius: 100%;
+        transform: translate(-7px, -6px);
+    }
 }
-svg{
-    width: 50px;
+
+@media (max-width: 500px) {
+    .btn__cartwidget {
+        margin: 0 .5rem;
+    }
 }
